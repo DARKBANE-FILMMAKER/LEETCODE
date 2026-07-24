@@ -8,7 +8,7 @@ class Solution {
         }
 
         for (int i = 1; i <= n; i++) {
-            if (trustScore[i] == n - 1) {
+            if (trustScore[i] == n - 1)  {
                 return i;
             }
         }
